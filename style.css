@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Grandstander', cursive;
+    background-image: url('aron-timer.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    margin: 5rem;
+    font-size: 4rem;
+}
+.eve-countiner{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    margin: 5rem;
+}
+.eve-countiner div{
+    margin: 3rem;
+    text-align: center;
+}
+.eve-countiner div .number{
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.eve-countiner div span{
+    font-size: 1.5rem;
+}
+@media (max-width:900px){
+    body{
+        /* background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat; */
+    }
+    h1{
+        margin: 0rem;
+        font-size: 3rem;
+    }
+    .eve-countiner {
+        /* display: flex;
+        flex-wrap: wrap; */
+        text-align: center;
+    }
+    .eve-countiner div{
+    text-align: center;
+    width: 5px;
+    }
+    .eve-countiner div .number{
+        font-size: 2rem;
+    }
+}
