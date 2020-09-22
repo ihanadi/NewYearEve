@@ -25,7 +25,6 @@ h1{
 .eve-countiner{
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
     margin: 5rem;
 }
 .eve-countiner div{
@@ -41,22 +40,11 @@ h1{
     font-size: 1.5rem;
 }
 @media (max-width:900px){
-    body{
-        /* background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat; */
-    }
     h1{
         margin: 0rem;
         font-size: 3rem;
     }
-    .eve-countiner {
-        /* display: flex;
-        flex-wrap: wrap; */
-        text-align: center;
-    }
     .eve-countiner div{
-    text-align: center;
     width: 5px;
     }
     .eve-countiner div .number{
